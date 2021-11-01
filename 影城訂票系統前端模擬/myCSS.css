@@ -1,0 +1,283 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: chartreuse;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-image: url(./img/backWH.png);
+}
+
+
+/* 左右兩條邊 */
+
+#screenL {
+    background: linear-gradient(240deg, rgba(2,0,36,1) 30%, rgb(3, 20, 114) 65%);
+    margin-left: 0%;
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    
+    /* background-image: url(./img/backBK.png); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+#screenR {
+    background: linear-gradient(120deg, rgba(2,0,36,1) 30%, rgb(3, 20, 114) 65%);
+    margin-left: 80%;
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    /* background-image: url(./img/backBK.png); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+/* 粉絲團頁籤 */
+#divFB {
+    border: 2px solid black;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+     top: 700px;
+    right: 20.5%;
+    background-image: url("./img/FBcode.png");
+    background-position: center;
+    background-size: 100%;                                /*讓圖示完整成呈現*/
+    background-repeat: no-repeat;
+    background-color: rgba(223, 13, 13, 0);            /*將背景色變透明*/
+    color: black;
+    font-family:DFKai-sb ;
+    text-align: center;
+
+}
+
+
+/* 最上層圖片區塊 */
+
+#div1>img {
+    margin-left: 17%;
+    width: 70%;
+}
+
+
+/* 標題 置中 */
+
+#div2 {
+    text-align: center;
+}
+
+
+/* 選擇電影 區塊 */
+
+table {
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.mvName {
+    text-align: left;
+    /* width: 30%; */
+}
+
+.trailerBT {
+    margin-left: 30%;
+}
+
+table,
+th,
+td {
+    border: 2px solid #dbb404;
+    color: rgba(12, 12, 124, 0.712);
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.mvImg {
+    width: 100%;
+    /* display: block; */
+    margin: auto;
+}
+
+
+
+
+
+/* 問卷第一部分 */
+
+#div4 {
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/ticketBG.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 35%;
+    font-weight: bold;
+}
+
+p {
+    margin-left: 5%;
+}
+
+
+/* 選擇票種 區塊 */
+
+#div5 {
+    text-align: center;
+}
+
+#total {
+    color: red;
+    font-size: large;
+}
+
+
+/* 選位置 區塊 */
+
+#div6 {
+    text-align: center;
+}
+
+
+/* 基本資料 區塊 */
+
+#div7 {
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/ticketBG2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 35%;
+    font-weight: bold;
+}
+
+
+/* 送出按鍵 */
+
+#div8 {
+    margin-left: 46%;
+}
+
+.submitBT {
+    padding: 10px 20px;
+    border: 1px solid #C7C7C7;
+    background: -webkit-linear-gradient(top, #68C0F2, #005EFF);
+    background: -moz-linear-gradient(top, #68C0F2, #005EFF);
+    background: -ms-linear-gradient(top, #68C0F2, #005EFF);
+    background: -o-linear-gradient(top, #68C0F2, #005EFF);
+    background-color: #005EFF;
+    box-shadow: 0px 7px 2px -5px #1A1A1A, inset 0px 0px 3px #00009C;
+    -webkit-box-shadow: 0px 7px 2px -5px #1A1A1A, inset 0px 0px 3px #00009C;
+    -moz-box-shadow: 0px 7px 2px -5px #1A1A1A, inset 0px 0px 3px #00009C;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    text-shadow: #706262 1px 1px 0px;
+    color: #F7EFEF;
+    font-size: 14px;
+    font-family: '微軟正黑體';
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submitBT:hover {
+    background: none;
+    background-color: #005EFF;
+    box-shadow: 0px 0px 5px 0px #AAAAAA;
+    -webkit-box-shadow: 0px 0px 5px 0px #AAAAAA;
+    -moz-box-shadow: 0px 0px 5px 0px #AAAAAA;
+    border: 1px solid #ffffff;
+    color: #63EDE8;
+}
+
+.submitBT:active {
+    top: 1px;
+    position: relative;
+}
+
+
+/* 總價按鈕 */
+
+.totalBT {
+    padding: 8px 20px;
+    margin: 4px;
+    border: 1px solid #C7C7C7;
+    background: -webkit-linear-gradient(top, orange, #FF6600);
+    background: -moz-linear-gradient(top, orange, #FF6600);
+    background: -ms-linear-gradient(top, orange, #FF6600);
+    background: -o-linear-gradient(top, orange, #FF6600);
+    background-color: #FF6600;
+    box-shadow: 0px 7px 2px -5px #1A1A1A, inset 0px 0px 3px #9C3100;
+    -webkit-box-shadow: 0px 7px 2px -5px #1A1A1A, inset 0px 0px 3px #9C3100;
+    -moz-box-shadow: 0px 7px 2px -5px #1A1A1A, inset 0px 0px 3px #9C3100;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    text-shadow: #706262 1px 1px 0px;
+    color: #F7EFEF;
+    font-size: 14px;
+    font-family: '微軟正黑體';
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.totalBT:hover {
+    background: none;
+    background-color: #FF6600;
+    box-shadow: 0px 0px 5px 0px #AAAAAA;
+    -webkit-box-shadow: 0px 0px 5px 0px #AAAAAA;
+    -moz-box-shadow: 0px 0px 5px 0px #AAAAAA;
+    border: 1px solid #ffffff;
+    color: #EDD663;
+}
+
+.totalBT:active {
+    top: 1px;
+    position: relative;
+}
+
+
+/* 播放按鈕 */
+
+.trailerBT {
+    padding: 10px 20px;
+    border: 1px solid #C7C7C7;
+    background: -webkit-linear-gradient(top, #f58080, #FF0000);
+    background: -moz-linear-gradient(top, #F79E9E, #FF0000);
+    background: -ms-linear-gradient(top, #F79E9E, #FF0000);
+    background: -o-linear-gradient(top, #F79E9E, #FF0000);
+    background-color: #FF0000;
+    box-shadow: 0px 7px 2px -5px #1A1A1A, inset 0px 0px 3px #9C0000;
+    -webkit-box-shadow: 0px 7px 2px -5px #1A1A1A, inset 0px 0px 3px #9C0000;
+    -moz-box-shadow: 0px 7px 2px -5px #1A1A1A, inset 0px 0px 3px #9C0000;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    text-shadow: #FF7A7A 1px 1px 0px;
+    color: #131212;
+    font-size: 14px;
+    font-family: '微軟正黑體';
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.trailerBT:hover {
+    background: none;
+    background-color: #FF0000;
+    box-shadow: 0px 0px 5px 0px #AAAAAA;
+    -webkit-box-shadow: 0px 0px 5px 0px #AAAAAA;
+    -moz-box-shadow: 0px 0px 5px 0px #AAAAAA;
+    border: 1px solid #ffffff;
+    color: #470000;
+}
+
+.trailerBT:active {
+    top: 1px;
+    position: relative;
+}
